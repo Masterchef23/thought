@@ -1,0 +1,154 @@
+header{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.search-button{
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+.underline{
+    text-decoration: underline;
+    color: gold;
+}
+
+.divider{
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+.topics{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.topic{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    border-radius: 50%;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.all-topics{
+    background-color: gold;
+}
+
+.more-topics{
+    text-decoration: underline;
+}
+
+
+
+.posts{
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+    color: #000;
+}
+
+.topic-head{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.author-date{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.author{
+    color: gold;
+}
+
+.date{
+    color: #fff;
+}
+
+.signup{
+    background-color:rgba(43, 0, 0, 0.274) ;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.subscribe{
+    background-color: gold;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pagination{
+    text-align: center;
+    margin-top: 2opx;
+
+}
+
+.pagination a{
+    color: gold;
+    margin: 0 10px;
+}
+
+.pagination .active{
+    color: #fff;
+}
+
+.thoughtbot-info{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+.thoughtbot-info .logo{
+    margin-right: 20px;
+}
+
+.thoughtbot-info ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.thoughtbot-info li{
+    margin-bottom: 10px;
+}
+
+.thoughtbot-info a{
+    text-decoration: underline;
+    color: #fff;
+}
+
+.thoughtbot-info a.gold{
+    color: gold;
+}
